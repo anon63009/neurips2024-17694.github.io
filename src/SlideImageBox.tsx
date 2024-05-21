@@ -29,7 +29,7 @@ const SlideImageBox = ({ images, backgroundColor }: Props) => {
         >
           {images.map(image => (
             <SwiperSlide key={image.url} className="text-center">
-              <img loading="lazy" src={`/anon63009/neurips2024-17694.github.io${image.url}`} width={1500} />
+              <img loading="lazy" src={`/neurips2024-17694.github.io${image.url}`} width={1500} />
             </SwiperSlide>
           ))}
         </Swiper>
