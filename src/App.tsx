@@ -34,17 +34,15 @@ function App() {
               </>
             }
             backgroundColor={"white"}
-            textColor={"black"}
+            textColor={"balck"}
             titleFontSize={"text-5xl"}
           >
             <Organization />
           </TextBox>
-          {/* FIXME: TL;DR */}
           <TextBox
-            title={`TL;DR: ${tldr}`}
+            title={"NeurIPS 2024 Submission"}
             backgroundColor={bgColor}
             textColor={"white"}
-            titleFontSize={"text-3xl"}
           />
           {/* FIXME: Abstract */}
           <AbstractBox
@@ -100,11 +98,22 @@ function App() {
           </TextBox>
           <SlideImageBox images={oneShotImages} backgroundColor={"white"} />
           <TextBox
-            title={"NeurIPS 2024 Submission"}
+            title={""}
             backgroundColor={bgColor}
             textColor={"white"}
             last={true}
-          />
+          >
+            <div>
+              We provide{" "}
+              <a
+                href="https://github.com/anon63009/neurips2024-17694.github.io/blob/main/assests/data.md"
+                className="text-#4cc9f0 no-underline font-italic"
+              >
+                links
+              </a>{" "}
+              to image assets used in our experiments.
+            </div>
+          </TextBox>
         </div>
       </WindowSizeContextProvider>
     </>
