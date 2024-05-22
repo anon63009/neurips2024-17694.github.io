@@ -59,8 +59,6 @@ export const oneShotImages = [
   { url: "/5_1shot/3.jpeg" }
 ];
 
-export const tldr = `DCO enhances compositionality of personalized text-to-image models by preserving pretrained knowledge`;
-
 export const abstract = `Text-to-image (T2I) diffusion models, when fine-tuned on a few personal images, can generate visuals with a high degree of consistency. However, such fine-tuned models are not robust; they often fail to compose with concepts of pretrained model or other fine-tuned models.
   To address this, we propose a novel fine-tuning objective, dubbed ***Direct Consistency Optimization***, which controls the deviation between fine-tuning and pretrained models to retain the pretrained knowledge during fine-tuning. 
   Through extensive experiments on subject and style customization, we demonstrate that our method positions in superior Pareto frontier between subject (or style) consistency and image-text alignment over all previous baselines; 

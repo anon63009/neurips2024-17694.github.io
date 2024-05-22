@@ -4,7 +4,6 @@ import { WindowSizeContextProvider } from "./contexts/WindowSizeContext";
 import Markdown from "./Markdown";
 import {
   bgColor,
-  tldr,
   abstract,
   styleImages,
   subjectImages,
